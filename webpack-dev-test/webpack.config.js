@@ -2,7 +2,7 @@ module.exports = {
     mode: 'development',
     entry:['@babel/polyfill','./source/client.js'],
     output: {
-        path: '/Users/taka/Desktop/webpack-dev-test/',
+        path: '/Users/user/Desktop/webpack-dev-test/',
         filename: 'index.js'
     },
     devServer:{

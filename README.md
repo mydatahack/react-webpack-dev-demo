@@ -41,8 +41,8 @@ npm init -y
 
 # (2) Package Installation
 
-- (2-1) Need to install dev dependency
-- (2-2) Polyfill runs before the source code, it needs to be a dependency not a devDependency.
+- Need to install dev dependency
+- Polyfill runs before the source code, it needs to be a dependency not a devDependency.
 
 installation for all packages
 ```
@@ -50,6 +50,11 @@ npm i --save-dev webpack@4.19.1 webpack-dev-server@3.1.8 webpack-cli@3.1.1
 npm i --save-dev babel-loader@8.0.4 @babel/core@7.1.0 @babel/preset-env@7.1.0 @babel/preset-react@7.0.0
 npm i --save @babel/polyfill@7.0.0
 npm i --save react@16.5.2 react-dom@16.5.2
+```
+
+Installing from package.json
+```
+npm install
 ```
 
 ### (3) configure webpack-dev-server
@@ -90,7 +95,7 @@ module.exports = {
 Add index.js to main
 Add babel presets. @babel/preset-env compiles ES6 code down to ES5.
 Add scripts to start web-dev-server with npm start.
-
+```
 {
   "name": "webpack-dev-test",
   "version": "1.0.0",
@@ -105,7 +110,8 @@ Add scripts to start web-dev-server with npm start.
   "scripts": {
     "start": "webpack-dev-server"
   },
-  ....
+  ...
+```
 
 ### (5) Add html code to index.html
 
