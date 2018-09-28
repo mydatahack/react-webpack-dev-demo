@@ -1,6 +1,28 @@
 # react-webpack-dev-demo
 Example of setting up local React dev environment with webpack
 
+This will enable us to have a local React evelopment environment with hot reloading with webpack-dev-server with added sppport for ES6 and JSX with Babel.
+
+The package versions used is:
+
+Dev Dependencies
+```
+"@babel/core": "7.1.0"
+"@babel/preset-env": "7.1.0"
+"@babel/preset-react": "7.0.0"
+"babel-loader": "8.0.4"
+"webpack": "4.19.1"
+"webpack-cli": "3.1.1"
+"webpack-dev-server": "3.1.8"
+```
+
+Dependencies
+```
+"@babel/polyfill": "^7.0.0"
+"react": "^16.5.2"
+"react-dom": "^16.5.2"
+```
+
 ## How to set up dev environment for React with Webpack 4 and Babel 7
 
 Prerequisit
