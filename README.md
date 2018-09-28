@@ -6,7 +6,7 @@ Example of setting up local React dev environment with webpack
 Prerequisit
 - nodejs & npm installation
 
-# (1) Project setup
+### (1) Project setup
 
 To use bootstrap as css, add bootstrap.min.css to the css folder.
 
@@ -39,7 +39,7 @@ touch webpack.config.js
 npm init -y
 ```
 
-# (2) Package Installation
+### (2) Package Installation
 
 - Need to install dev dependency
 - Polyfill runs before the source code, it needs to be a dependency not a devDependency.
